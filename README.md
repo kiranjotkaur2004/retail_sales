@@ -25,11 +25,11 @@ This helps the business maintain the right stock and improve sales strategies.
 Examined monthly sales patterns to identify high and low sales periods.
 This helps the business prepare for peak seasons and manage inventory effectively.
 
-*Business Impact:*
-Better understanding of customer behavior.
-Improved sales and marketing decisions.
-More effective inventory management.
-Smarter staffing and business planning.
+*Business Impact:*<br>
+Better understanding of customer behavior.<br>
+Improved sales and marketing decisions.<br>
+More effective inventory management.<br>
+Smarter staffing and business planning.<br>
 
 This project demonstrates SQL skills and techniques used by data analysts to explore, clean, and analyze retail sales data. It involves setting up a retail sales database, performing Exploratory Data Analysis (EDA), and answering business-related questions using SQL queries. The project helps in understanding how SQL can be used to extract insights from data and build a strong foundation in data analysis.
 
