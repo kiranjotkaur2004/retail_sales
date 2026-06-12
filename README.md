@@ -68,13 +68,13 @@ The following SQL queries were developed to answer specific business questions:
 
 ## Findings
 **Identified Peak Business Hours**:<br>
-       **Insight: The Evening shift generated the highest order volume, making it the busiest sales period of the day.** <br>
+      Insight: The Evening shift generated the highest order volume, making it the busiest sales period of the day. <br>
 **Identified Top Customers Based On Total Spending**:<br>
-      **Insight: Customer ID 3 generated the highest revenue (38,440), making them the most valuable customer.** <br>
+      Insight: Customer ID 3 generated the highest revenue (38,440), making them the most valuable customer. <br>
 **Understanding Product Performance**:<br>
-      **Insight:Electronics generated the most revenue, and Clothing received the most orders, making them the top-performing categories.** <br>
+      Insight:Electronics generated the most revenue, and Clothing received the most orders, making them the top-performing categories. <br>
 **Analyzing Sales Trends**:  <br>
-      **Insight:July 2022 and February 2023 were the strongest sales months, indicating periods of higher customer spending and business performance.** <br>
+      Insight:July 2022 and February 2023 were the strongest sales months, indicating periods of higher customer spending and business performance.<br>
       
 ## Reports
 - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
