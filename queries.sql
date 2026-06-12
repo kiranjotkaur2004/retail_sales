@@ -1,4 +1,4 @@
-#Database Setup
+--Database Setup:
 CREATE DATABASE IF NOT EXISTS retail_db;
 USE retail_db;
 CREATE TABLE IF NOT EXISTS retail_sales
@@ -15,6 +15,8 @@ CREATE TABLE IF NOT EXISTS retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+
+--Data Exploration & Cleaning:
 SELECT COUNT(*) FROM retail_sales;
 SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
 SELECT DISTINCT category FROM retail_sales;
@@ -31,28 +33,20 @@ WHERE
 
 
 
-# Retail Sales Analysis - SQL Business Questions
--- Retail Sales Analysis Project
--- SQL Business Questions & Solutions
-
+--Retail Sales Analysis - SQL Business Questions:
 -- 1. Retrieve all sales made on 5-Nov-2022
-
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
 
-
 -- 2. Find Clothing transactions with quantity greater than 4 in Nov-2022
-
 SELECT *
 FROM retail_sales
 WHERE category = 'Clothing'
   AND TO_CHAR(sale_date, 'YYYY-MM') = '2022-11'
   AND quantity >= 4;
 
-
 -- 3. Calculate total sales and total orders for each category
-
 SELECT
     category,
     SUM(total_sale) AS net_sale,
@@ -60,24 +54,18 @@ SELECT
 FROM retail_sales
 GROUP BY category;
 
-
 -- 4. Find the average age of customers who purchased Beauty products
-
 SELECT
     ROUND(AVG(age), 2) AS avg_age
 FROM retail_sales
 WHERE category = 'Beauty';
 
-
 -- 5. Retrieve transactions where total sale amount is greater than 1000
-
 SELECT *
 FROM retail_sales
 WHERE total_sale > 1000;
 
-
 -- 6. Count transactions by gender and category
-
 SELECT
     category,
     gender,
@@ -86,9 +74,7 @@ FROM retail_sales
 GROUP BY category, gender
 ORDER BY category;
 
-
 -- 7. Find the best-selling month in each year based on average sales
-
 SELECT
     year,
     month,
@@ -107,9 +93,7 @@ FROM (
 ) AS t1
 WHERE rank = 1;
 
-
 -- 8. Find the top 5 customers with the highest total sales
-
 SELECT
     customer_id,
     SUM(total_sale) AS total_sales
@@ -118,18 +102,14 @@ GROUP BY customer_id
 ORDER BY total_sales DESC
 LIMIT 5;
 
-
 -- 9. Count unique customers for each product category
-
 SELECT
     category,
     COUNT(DISTINCT customer_id) AS unique_customers
 FROM retail_sales
 GROUP BY category;
 
-
 -- 10. Categorize sales into shifts and count total orders in each shift
-
 WITH hourly_sale AS (
     SELECT *,
            CASE
@@ -146,4 +126,4 @@ SELECT
 FROM hourly_sale
 GROUP BY shift
 ORDER BY total_orders DESC;
-```
+
