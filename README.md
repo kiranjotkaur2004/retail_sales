@@ -70,6 +70,8 @@ The following SQL queries were developed to answer specific business questions:
 
 - **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
 - **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
+- <img width="275" height="137" alt="image" src="https://github.com/user-attachments/assets/7e652215-2c91-4fa2-85d3-021e567f0fdf" />
+
 - **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
 - **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
 
