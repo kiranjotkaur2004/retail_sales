@@ -67,20 +67,24 @@ The following SQL queries were developed to answer specific business questions:
 - What are the busiest sales shifts during the day?
 
 ## Findings
-
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- <img width="275" height="137" alt="image" src="https://github.com/user-attachments/assets/7e652215-2c91-4fa2-85d3-021e567f0fdf" />
-
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
-
+**Identified Peak Business Hours**:
+<img width="620" height="142" alt="image" src="https://github.com/user-attachments/assets/1c0fffa1-9547-42c3-87a5-c6cc12c664c8" />
+       **Insight: The Evening shift generated the highest order volume, making it the busiest sales period of the day.**
+**Identified Top Customers Based On Total Spending**:
+<img width="298" height="183" alt="image" src="https://github.com/user-attachments/assets/ffcfd1c8-ff39-4f28-b635-b56ff06c02ec" />
+      **Insight: Customer ID 3 generated the highest revenue (38,440), making them the most valuable customer.**
+**Understanding Product Performance**:
+<img width="412" height="161" alt="image" src="https://github.com/user-attachments/assets/af92cc25-623a-458f-bdf5-f9484df02925" />
+      **Insight:Electronics generated the most revenue, and Clothing received the most orders, making them the top-performing categories.**
+**Analyzing Sales Trends**:  
+<img width="457" height="142" alt="image" src="https://github.com/user-attachments/assets/1e6a3e53-2c79-4740-af6d-97ed8e8d5906" />
+      **Insight:July 2022 and February 2023 were the strongest sales months, indicating periods of higher customer spending and business performance.**
+      
 ## Reports
-
 - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
 - **Trend Analysis**: Insights into sales trends across different months and shifts.
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
 ## Conclusion
-
-This project helped me gain practical experience in SQL by working with retail sales data. It involved database creation, data cleaning, exploratory data analysis (EDA), and solving business problems using SQL queries. Through this project, I analyzed sales trends, customer purchasing behavior, and product performance to generate meaningful business insights and strengthen my data analysis skills.
+This project demonstrates how SQL can be used to transform raw retail sales data into meaningful business insights. Through data cleaning, exploratory data analysis (EDA), and SQL queries, I identified peak business hours, top customers, product performance, and sales trends.
+The insights generated from this analysis can help businesses improve decision-making in marketing, inventory management, customer retention, and workforce planning. Overall, this project strengthened my SQL and analytical skills while showcasing the practical application of data analysis in solving real-world business problems.
