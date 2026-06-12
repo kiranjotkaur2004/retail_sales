@@ -44,28 +44,7 @@ This project demonstrates SQL skills and techniques used by data analysts to exp
 
 ### 1. Database Setup
 
--**Database Creation**: Created a database named retail_db to store and manage retail sales data. -**Database Selection**: Used the USE retail_db command to work within the database. -**Table Creation**: Created a table named retail_sales containing fields such as transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, COGS, and total sale amount. -**Data Import**: Imported the retail sales dataset into the retail_sales table for analysis and reporting. -**Data Verification**: Verified that the data was successfully loaded and ready for further analysis.
-
-```sql
-CREATE DATABASE IF NOT EXISTS retail_db;
-
-USE retail_db;
-
-CREATE TABLE IF NOT EXISTS retail_sales
-(
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,
-    sale_time TIME,
-    customer_id INT,
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,
-    cogs FLOAT,
-    total_sale FLOAT
-);
-```
+**Database Creation**: Created a database named retail_db to store and manage retail sales data. <br>**Database Selection**: Used the USE retail_db command to work within the database. <br>**Table Creation**: Created a table named retail_sales containing fields such as transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, COGS, and total sale amount.  <br>**Data Import**: Imported the retail sales dataset into the retail_sales table for analysis and reporting.  <br>**Data Verification**: Verified that the data was successfully loaded and ready for further analysis.
 
 ### 2. Data Exploration & Cleaning
 
