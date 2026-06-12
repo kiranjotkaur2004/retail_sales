@@ -6,25 +6,22 @@
 Business Problems Solved
 
 **1. Identified Peak Business Hours**
-
 Analyzed sales data to find the busiest times of the day.
 This helps the store schedule more staff during peak hours.
 
 **2. Identifying Top Customers**
-
 Found customers who spend the most money.
 This helps the business offer rewards and special discounts to loyal customers.
 
 **3. Understanding Product Performance**
-
 Analyzed which product categories generate the most sales.
 This helps the business maintain the right stock and improve sales strategies.
 
 **4. Analyzing Sales Trends**
-
 Examined monthly sales patterns to identify high and low sales periods.
 This helps the business prepare for peak seasons and manage inventory effectively.
-Business Impact
+
+*Business Impact:*
 Better understanding of customer behavior.
 Improved sales and marketing decisions.
 More effective inventory management.
