@@ -1,7 +1,6 @@
+#Database Setup
 CREATE DATABASE IF NOT EXISTS retail_db;
-
 USE retail_db;
-
 CREATE TABLE IF NOT EXISTS retail_sales
 (
     transactions_id INT PRIMARY KEY,
